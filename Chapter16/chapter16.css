@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+}
+
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+#story {
+  width: 100%;
+  color: b;
+  height: 80%;
+  background-color: palevioletred;
+  overflow-y: scroll;
+}
+
+#site-footer,
+.story:after {
+  position: static;
+  bottom: 0;
+  height: 20%;
+}
+
+#question {
+  padding: 10px 0;
+  width: 100%;
+  background-color: #EEE;
+  color: palevioletred;
+}
+
+#answer {
+  padding: 10px 0;
+  width: 100%;
+  background-color:palevioletred;
+  color: #FFF;
+  text-align: center;
+  display: none;
+}
+
+.storyPart {
+  display: none;
+}
+
+p {
+  margin-top: 1em;
+}
