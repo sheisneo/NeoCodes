@@ -1,0 +1,37 @@
+#Monday, #Tuesday, #Wednesday, #Thursday, #Friday {
+    width: 18%;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.Sunny {
+    background-color: rgba(250, 145, 24, 0.671);
+}
+.Snowing {
+    background-color: rgb(185, 47, 47);
+}
+.Raining {
+    background-color: rgba(214, 27, 27, 0.842);
+}
+.Cloudy {
+    background-color: #78dacd4f;
+}
+.Thunderstorm {
+    background-color: #f50606;
+}
+.Foggy {
+    background-color: #f55e06;
+}
+}
+#orderForm {
+    width: 75%;
+    margin: 20px auto;
+}
+#receipt {
+    background-color: #996600;
+    color: yellow;
+    padding: 6px;
+}
